@@ -1,0 +1,15 @@
+{
+  "name": "canvas_stuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.9.2",
+    "serve-static": "^1.10.3"
+  }
+}
