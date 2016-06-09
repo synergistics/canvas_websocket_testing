@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/nodemon/bin/nodemon.js server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^1.9.2",
-    "serve-static": "^1.10.3"
+    "serve-static": "^1.10.3",
+    "websocket": "^1.0.23"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
   }
 }
